@@ -1,9 +1,9 @@
 import express from 'express';
 import dotenv from 'dotenv';
-import connectDB from './dao/db/index.js';
-import usersRouter from './routes/users.router.js';
-import sessionsRouter from './routes/sessions.router.js';
-import initializePassport from './config/passport.config.js';
+import connectDB from './src/dao/db/index.js';
+import usersRouter from './src/routes/users.router.js';
+import sessionsRouter from './src/routes/sessions.router.js';
+import initializePassport from './src/config/passport.config.js';
 import passport from 'passport';
 import cookieParser from 'cookie-parser'; 
 
